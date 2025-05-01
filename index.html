@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <video autoplay muted loop id="background-video" class="video-background">
+    <source src="videos/clear.mp4" type="video/mp4" />
+  </video>
+
+  <div class="weather-container">
+    <div class="top-bar">
+      <input id="searchBox" type="text" placeholder="Search for a city..." />
+      <button id="unit-toggle">°C</button>
+      <button id="theme-toggle">Toggle Theme</button>
+    </div>
+
+    <div class="current-weather">
+      <h1 id="cityName">Weather</h1>
+      <p id="weatherDescription"></p>
+      <img id="weatherIcon" src="" alt="Icon" />
+      <h2 id="temperature"></h2>
+    </div>
+
+    <div class="weather-details">
+      <p id="realFeel"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+      <p id="uv"></p>
+      <p id="rain"></p>
+    </div>
+
+    <div class="forecast-section">
+      <div class="hourly-box" id="hourlyBox"></div>
+      <div class="forecast-container" id="forecastContainer"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+<script src="config.js" ></script>
+</body>
+</html>
