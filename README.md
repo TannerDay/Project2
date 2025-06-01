@@ -12,32 +12,32 @@ Instrucitons on API: I went to Weatherapi.com and simply signed up for a free tr
 
 
 Key Features:
-1 Location:
+1. Location:
     Auto-loads the user's current locatiojn on page load.
 
     Allows manual search for any city.
 
-2 Current Weather Display:
+2. Current Weather Display:
     Shows city name, temperature, weather condtion, and icon.
 
-3 Forecasts: 
+3. Forecasts: 
     Displays a scrollable 24-hour forecast with weather icons and temperature.
 
     Shows a 5-day forecast with daily highs, lows, and condtions.
 
-4 UI and Styling:
+4. UI and Styling:
     Supports light and dark modes with a toggle.
 
     Changes background video dynamically based on weather and time of day.
 
     All UI elements are styled with a clean, modern aesthetic.
 
-5 Interactive Controls:
+5. Interactive Controls:
     Toggle between Celsius and Farenheit.
 
     Smooth animated icons or video elements enhance feedback and engagement.
 
-6 Fallback and Responsiveness:
+6. Fallback and Responsiveness:
     Handles invalid city and input gracefully.
 
     User Story 1
